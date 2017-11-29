@@ -16,7 +16,7 @@ function GetResult(){
                 results += '<div class="col-md-12 news-post">';
                 results += '<div class="row">';
                 
-                results += '<a href='+data.response.results[i].webUrl+' target="_blank" style="color:#4aa1f3; text-decoration:none;">';
+                results += '<a href='+data.response.results[i].webUrl+' target="_blank" style="color:#778899; text-decoration:none;">';
                 results += '<div class="col-md-2">';
                 results += '<img src='+data.response.results[i].fields.thumbnail+' class="img-responsive" />'
                 results += '</div>';

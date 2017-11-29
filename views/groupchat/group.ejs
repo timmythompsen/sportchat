@@ -38,7 +38,7 @@
 
                                             </div>
                                             <div class="user cover-img">
-                                                <img src="https://footballkik.s3.amazonaws.com/<%= user.userImage %>" class="img-circle" alt="">
+                                                <img src="https://sportschatucsd.s3.amazonaws.com/<%= user.userImage %>" class="img-circle" alt="">
                                             </div>
                                             <div class="content">
                                                 <div class="main">
@@ -53,7 +53,7 @@
                                                 </div>
                                                 <div class="footer">
                                                     <i class="fa fa-mail-forward"></i> 
-                                                    <a style="text-decoration:none; color:#4aa1f3" href="/profile/<%= user.username %>">
+                                                    <a style="text-decoration:none; color:#778899" href="/profile/<%= user.username %>">
                                                       View My Profile
                                                     </a>
                                                 </div>
@@ -116,7 +116,7 @@
                                    <% if(groupName === val.name) {%>
                                     <li class="left">
                                        <span class="chat-img1 pull-left">
-                                           <img src="https://footballkik.s3.amazonaws.com/<%= val.sender.userImage %>" class="img-circle" alt="">
+                                           <img src="https://sportschatucsd.s3.amazonaws.com/<%= val.sender.userImage %>" class="img-circle" alt="">
                                        </span>
                                        <div class="chat-body1">
                                            <span class="chat-name"><%= val.sender.username %></span>
@@ -132,7 +132,7 @@
                                 <script id="message-template" type="text/template">
                                     <li class="left">
                                        <span class="chat-img1 pull-left">
-                                           <img src="https://footballkik.s3.amazonaws.com/{{userImage}}" class="img-circle" alt="">
+                                           <img src="https://sportschatucsd.s3.amazonaws.com/{{userImage}}" class="img-circle" alt="">
                                        </span>
                                        <div class="chat-body1">
                                            <span class="chat-name">{{ sender }}</span>
@@ -152,7 +152,7 @@
                                   <textarea class="form-control" name="message" id="msg" placeholder="Type a message"></textarea>
                                   <div class="clearfix"></div>
                                   <div class="chat_bottom">
-                                      <button id="send-message" class="pull-right btn btn-primary" style="background: #4aa1f3; border: #4aa1f3; ">
+                                      <button id="send-message" class="pull-right btn btn-primary" style="background: #778899; border: #778899; ">
                                           Send
                                       </button>
                                   </div>
@@ -167,8 +167,8 @@
                         <div class="new_message_head">
                             <div class="pull-left">
                                 <button class="club_fans">
-                                    <i class="fa fa-users" aria-hidden="true" style="padding-right:15px; color:#4aa1f3 !important;"></i>
-                                    Online Club Fans <span id="numValue"></span>
+                                    <i class="fa fa-users" aria-hidden="true" style="padding-right:15px; color:#778899 !important;"></i>
+                                    Online Fans <span id="numValue"></span>
                                 </button>
                             </div>
                         </div>

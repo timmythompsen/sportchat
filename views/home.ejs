@@ -16,7 +16,7 @@
    <form action="/results" method="post">
        <div class="form-group ad-30" style="margin-top:8px;">
             <div class="input-group search-style">
-                <input class="form-control new-search-bar"  name="country" id="search" placeholder="Enter Your Club Name" type="text">
+                <input class="form-control new-search-bar"  name="country" id="search" placeholder="Enter Chat Room" type="text">
                 <span class="input-group-btn">
                     <button class="btn input-btn" type="" id="search-form">Search</button>
                 </span>
@@ -67,7 +67,7 @@
                                 <div class="item col-md-4">
             <a style="text-decoration:none" href="/group/<%= val2.name.replace(/ /g, "-") %>">
                                     <div class="thumbnail">
-                                       <img src="https://footballkik.s3.amazonaws.com/<%= val2.image %>" alt="">
+                                       <img src="https://sportschatucsd.s3.amazonaws.com/<%= val2.image %>" alt="">
                                         <div class="caption">
                                             <h4>
                                                 <%= val2.name %> (<%= val2.fans.length %>)

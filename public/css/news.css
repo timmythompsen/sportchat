@@ -1,5 +1,7 @@
+
+
 .news-mainhead{
-    color: #4aa1f3;
+    color: black;
     margin-bottom: 20px;
     font-size: 32px;
 }
@@ -25,45 +27,19 @@
 
 #linkTop{
     text-decoration: none !important;
-    color: #4aa1f3 !important;
+    color: black !important;
 }
 
 #loadMore{
     padding: 10px;
     font-weight: bold;
     font-size: 18px;
-    background-color: #4aa1f3;
+    background-color: black;
     color: #fff;
 }
 
 .paginate{
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

@@ -5,7 +5,7 @@ module.exports = function(){
         },
         
         footbalNews: function(req, res){
-            res.render('news/footballnews', {title: 'Footballkik - Latest News', user: req.user});
+            res.render('news/footballnews', {title: 'Sports News', user: req.user});
         }
     }
 }

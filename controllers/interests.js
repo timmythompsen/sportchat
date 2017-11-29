@@ -51,7 +51,7 @@ module.exports = function(async, Users, Message, FriendResult){
                 const result1 = results[0];
                 const result2 = results[1];
                 
-                res.render('user/interest', {title: 'Footballkik - Interests', user:req.user, data: result1, chat:result2});
+                res.render('user/interest', {title: 'Interests', user:req.user, data: result1, chat:result2});
             });
         },
         

@@ -1,36 +1,36 @@
 body {
     font-size: 16px;
     line-height: 1.42857143;
-    color: #555;
-    background: #eeeeee;
+    color: black;
+    background: #eeeeee ;
 }
 
 .navbar{
-    background-color: darkgrey;
+    background-color: black;
 }
 
 .navbar-default .navbar-brand{
-    color: #ffffff;
+    color: #FF0000 ;
     font-size: 30px;
     font-weight: bold;
     text-decoration: none;
 }
 
 .navbar-brand:hover{
-    color: #ffffff !important;
-    background-color: #4aa1f3 !important;
+    color: white !important;
+    background-color: red !important;
 }
 
 .navbar-default .navbar-nav > li > a{
     color: #fff !important;
-    background-color: darkgrey; !important;
+    background-color: black; !important;
     font-size: 16px;
     font-weight: bold;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-    color: #fff !important;
-    background-color: #4aa1f3 !important;
+    color: white !important;
+    background-color: red !important;
 }
 
 #custom-search-input {
@@ -52,7 +52,7 @@ body {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 0 none;
     border-radius: 3px;
-    color: #666666;
+    color: #666666 ;
     left: auto;
     margin-bottom: 0;
     margin-top: 7px;
@@ -63,9 +63,9 @@ body {
 }
 
 .card {
-    background: none repeat scroll 0 0 #FFFFFF;
+    background: none repeat scroll 0 0 #FFFFFF ;
     border-radius: 4px;
-    color: #444444;
+    color: #444444 ;
 }
 
 
@@ -85,7 +85,7 @@ body {
 }
 
 .input-btn {
-    background: #4aa1f3;
+    background: black;
     border-top-right-radius: 25px !important;
     border-bottom-right-radius: 25px !important;
     padding-left: 23px;
@@ -106,7 +106,7 @@ body {
 }
 
 .add-apply{
-    background: #4aa1f3;
+    background: black;
     width: 100%;
     text-shadow: none;
     color: #ffffff !important;
@@ -115,11 +115,11 @@ body {
 }
 
 .add-fav{
-    background: #4aa1f3;
+    background: black;
     width: 100%;
     text-shadow: none;
     color: #ffffff !important;
-    font-weight: bold; 
+    font-weight: bold;
     padding: 5px 2px 5px 2px;
 }
 
@@ -149,7 +149,7 @@ body {
 }
 
 .dropdown-tag {
-    background: #03A9F4;
+    background: red ;
     color: white;
     padding: 4px;
     margin-bottom: 15px;
@@ -174,8 +174,8 @@ body {
 }
 
 .drop-accept {
-    background: #4aa1f3 !important;
-    border: #3bb5ec;
+    background: black !important;
+    border: #3bb5ec ;
     color: white !important;
     text-shadow: none;
 }
@@ -193,17 +193,3 @@ body {
     width: 40px;
     height: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

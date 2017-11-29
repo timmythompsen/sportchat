@@ -61,7 +61,6 @@ container.resolve(function(users, _, admin, home, group, results, privatechat, p
     }
     
     
-    
     function ConfigureExpress(app){
         
         app.use(compression());
@@ -69,10 +68,6 @@ container.resolve(function(users, _, admin, home, group, results, privatechat, p
         
         
         require('./passport/passport-local');
-        require('./passport/passport-facebook');
-        require('./passport/passport-google');
-        
-        
         
         app.use(express.static('public'));
         app.use(cookieParser());

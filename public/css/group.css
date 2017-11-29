@@ -1,7 +1,7 @@
 body {
     font-size: 16px;
     line-height: 1.42857143;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Helvetica Neue', 'Open Sans', sans-serif,
     color: #555;
     background: #eeeeee;
 }
@@ -21,40 +21,40 @@ h2 {
 
 h3 {
     font-size: 24px;
-    color: #333;
+    color: #5C5C5B;
 }
 
 .navbar{
-    background: #4aa1f3;
+    background: black;
 }
 
 .navbar-default .navbar-brand {
     color: #fff;
     font-size: 30px;
     font-weight: bold;
-	padding-left: 0px;
+    padding-left: 0px;
     text-decoration: none;
 }
 
 .navbar-brand:hover{
     color: #fff !important;
-    background-color: #4aa1f3;
+    background-color: black;
 }
 
 .navbar-default .navbar-nav > li > a {
     color: #fff !important;
-    background-color: #4aa1f3;
+    background-color: black;
     font-size: 16px;
     font-weight: bold;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
     color: #fff !important;
-    background-color: #4aa1f3;
+    background-color: black;
 }
 
 .dropdown-toggle:active, .open .dropdown-toggle {
-    background:#4aa1f3 !important; 
+    background: black !important; 
     border: none !important;
     color:#000 !important;
 }
@@ -68,11 +68,11 @@ h3 {
     border: medium none;
     outline: 0;
     font-size: 17px;
-    color: #4aa1f3;
+    color: black;
 }
 
 .new_message_head button:focus {
-	outline: 0 !important;
+    outline: 0 !important;
 }
 
 .new_message_head {
@@ -131,7 +131,7 @@ h3 {
 .chat-name{
     font-size: 17px;
     font-weight: 600;
-    color: #4aa1f3;
+    color: black;
 }
 
 .message_write {
@@ -277,7 +277,7 @@ member_list li:hover {
 }
 
 .name, .friends, #numOfFriends, .club_name, .club_fans{
-    color: #4aa1f3 !important;
+    color: black !important;
 }
 
 .bl {
@@ -309,11 +309,11 @@ member_list li:hover {
 }
 
 .modal-title{
-    color: #4aa1f3;
+    color: black;
 }
 
 #nameLink, .btn_close{
-    background-color: #4aa1f3 !important;
+    background-color: black !important;
     color: white !important;
 }
 
@@ -336,7 +336,7 @@ member_list li:hover {
 #val{
     cursor: pointer;
     text-decoration: none;
-    color: #4aa1f3;
+    color: black;
 }
 
 .nav-label-icon {
@@ -389,7 +389,7 @@ member_list li:hover {
 }
 
 .drop-accept {
-    background: #4aa1f3 !important;
+    background: black !important;
     border: #3bb5ec;
     color: white !important;
     text-shadow: none;
@@ -426,17 +426,4 @@ member_list li:hover {
     width: 40px;
     height: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 

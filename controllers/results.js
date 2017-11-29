@@ -30,7 +30,7 @@ module.exports = function(async, Club, Users){
                     dataChunk.push(res1.slice(i, i+chunkSize));
                 }
                 
-                res.render('results', {title: 'Footballkik - Results', user: req.user, chunks: dataChunk});
+                res.render('results', {title: 'Results', user: req.user, chunks: dataChunk});
             })
         },
         

@@ -35,7 +35,7 @@
                             <div class="col-md-12">
                                 <div class="profile-sidebar">
                                         <div class="img-container">
-                                            <img src="https://footballkik.s3.amazonaws.com/<%= data.userImage %>" class="img-responsive img-user" id="show_img">
+                                            <img src="https://sportschatucsd.s3.amazonaws.com/<%= data.userImage %>" class="img-responsive img-user" id="show_img">
                                         </div>
                                 
                                     <div class="profile-usertitle">
@@ -50,8 +50,8 @@
                                     <div class="profile-usermenu">
                                         <ul class="nav">
                                             <li>
-                                                <a href="/profile/<%= data.username %>" style="color:#4aa1f3 !important">
-                                                    <i class="fa fa-home" style="color:#4aa1f3 !important"></i>
+                                                <a href="/profile/<%= data.username %>" style="color:#778899 !important">
+                                                    <i class="fa fa-home" style="color:#778899 !important"></i>
                                                     Overview
                                                 </a>
                                             </li>
@@ -74,10 +74,10 @@
                         <div>
                             <div class="user-display">
 
-                                <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite Clubs</h3>
+                                <h3 class="user-display-head" style="color:#778899 !important">Favorite Sports</h3>
                                 <hr />
                                 <% _.forEach(data.favClub, function(val) {%>
-                                    <p style="margin-bottom:30px; color:#4aa1f3">
+                                    <p style="margin-bottom:30px; color:#778899">
                                         <span class="glyphicon glyphicon-check" style="color:gray"></span>
                                         <%= val.clubName %>
                                     </p>
@@ -89,10 +89,10 @@
                         <div style="margin-top:20px">
                             <div class="user-display">
 
-                                <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite Players</h3>
+                                <h3 class="user-display-head" style="color:#778899 !important">Favorite Players</h3>
                                 <hr />
                                 <% _.forEach(data.favPlayer, function(val) {%>
-                                    <p style="margin-bottom:30px; color:#4aa1f3">
+                                    <p style="margin-bottom:30px; color:#778899">
                                         <span class="glyphicon glyphicon-check" style="color:gray"></span>
                                         <%= val.playerName %>
                                     </p>
@@ -104,10 +104,10 @@
                         <div style="margin-top:20px">
                             <div class="user-display">
 
-                                <h3 class="user-display-head" style="color:#4aa1f3 !important">Favourite National Teams</h3>
+                                <h3 class="user-display-head" style="color:#778899 !important">Favorite Teams</h3>
                                 <hr />
                                 <% _.forEach(data.favNationalTeam, function(val) {%>
-                                    <p style="margin-bottom:30px; color:#4aa1f3">
+                                    <p style="margin-bottom:30px; color:#778899">
                                         <span class="glyphicon glyphicon-check" style="color:gray"></span>
                                         <%= val.teamName %>
                                     </p>
